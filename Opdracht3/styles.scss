@@ -1,0 +1,165 @@
+$Color: white;
+$FontFamily: Arial, Helvetica, sans-serif;
+$Fontsize: 12px;
+$MarginRight: -10px;
+
+html {
+  overflow-x:hidden;
+}
+body{
+  background: lightgrey;
+}
+.blog{
+  background: #e17b77;
+position: absolute;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: 150px;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+  &__img{
+    width: 25px;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+  }
+  &__text{
+    display: block;
+    font-family: $FontFamily;
+    font-size: $Fontsize;
+    color: $Color;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+}
+.blog:hover{
+  width:200px;
+}
+.blog:hover{
+  display: inline;
+}
+.twitter{
+  background: #00aced;
+position: absolute;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: 190px;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+  &__img{
+    height: 25px;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+  }
+  &__text{
+    display: block;
+    font-family: $FontFamily;
+    font-size: $Fontsize;
+    color: $Color;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+}
+.twitter:hover{
+  width:200px;
+  
+}
+.twitter:hover{
+  display: inline;
+}
+.linkedin{
+  background: #007bb6;
+position: absolute;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: 230px;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+  &__img{
+    height: 25px;
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+  }
+  &__text{
+    display: block;
+    font-family: $FontFamily;
+    font-size: $Fontsize;
+    color: $Color;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+}
+.linkedin:hover{
+  width:200px;
+}
+.linkedin:hover{
+  display: inline;
+}
+.fb{
+  background: #3b5998;
+position: absolute;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: 270px;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+  &__img{
+    height: 25px;
+    position: absolute;
+    margin: 10px 10px 10px 15px;
+  }
+  &__text{
+    display: block;
+    font-family: $FontFamily;
+    font-size: $Fontsize;
+    color: $Color;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+}
+.fb:hover{
+  width:200px;
+}
+.fb:hover{
+  display: inline;
+}
+.gh{
+  background: black;
+position: absolute;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: 310px;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+  &__img{
+    height: 20px;
+    position: absolute;
+    margin: 10px 10px 10px 12px;
+  }
+  &__text{
+    display: block;
+    font-family: $FontFamily;
+    font-size: $Fontsize;
+    color: $Color;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+}
+.gh:hover{
+  width:200px;
+  transition-timing-function: ease-in-out;
+}

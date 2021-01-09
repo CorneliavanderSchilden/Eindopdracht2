@@ -1,0 +1,61 @@
+html {
+  overflow-x: hidden;
+}
+
+.totaal {
+  display: block;
+}
+
+body {
+  background-color: #c3cfe2;
+}
+
+.blok {
+  font-family: "Abel";
+  width: 275px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 20px;
+  -webkit-box-shadow: 0em 0.3em 0.2em grey;
+          box-shadow: 0em 0.3em 0.2em grey;
+}
+
+.blok--licht {
+  background-color: white;
+  text-align: left;
+  border-radius: 1em 1em 0em 0em;
+  margin-bottom: -20px;
+}
+
+.blok--donker {
+  background-color: #686de0;
+  text-align: center;
+  border-radius: 0em 0em 1em 1em;
+  padding-bottom: 20px;
+}
+
+.blok__image {
+  width: 85px;
+  margin-bottom: -40px;
+  margin-left: 85px;
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.blok__text {
+  line-height: 37px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.blok__text--white {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.blok__text--grey {
+  color: lightblue;
+}
+/*# sourceMappingURL=styles.css.map */
